@@ -1,0 +1,24 @@
+{
+  "name": "pruebamovistar",
+  "version": "1.0.0",
+  "description": "Realizar las pruebas en la pag de movistar Connectis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypressOpen": "crypress open"
+    
+  },
+  "keywords": [
+    "Atomatizacion",
+    "cypress",
+    "pruebas"
+  ],
+  "author": "Rafael Matos",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.3.1"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^2.3.0"
+  }
+}
